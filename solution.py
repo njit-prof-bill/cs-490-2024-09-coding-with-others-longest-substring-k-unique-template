@@ -16,4 +16,3 @@ def longest_substring_k_unique(s: str, k: int) -> int:
 print(longest_substring_k_unique("araaci", 2))
 print(longest_substring_k_unique("cbbebi", 3))
 print(longest_substring_k_unique("aa", 1))
-
