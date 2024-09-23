@@ -79,16 +79,29 @@ def longest_substring_k_unique(s: str, k: int) -> int:
    - Make sure you are comparing your `gcd-feature` branch with the `main` branch of the original repository.
    - Submit the pull request.
 
-## Peer Review
+## Peer Review Instructions
 
-Once you submit your pull request, you will be assigned a peer’s solution to review. Follow these steps for peer review:
+After submitting your pull request, you will be required to review one of your peer’s submissions. Follow these steps to assign yourself as a reviewer and complete the review:
 
-1. **Review the Peer’s Code**:
-   - Check the peer’s code for correctness, efficiency, and readability.
-   - Provide constructive feedback and suggest improvements where necessary.
+### Submit Your Own Pull Request:
+- First, complete your own solution and submit a pull request following the assignment instructions.
 
-2. **Submit Your Feedback**:
-   - Use the GitHub review feature to submit your feedback.
+### Find a Pull Request to Review:
+- Go to the **Pull Requests** tab in the repository.
+- Browse the list of pull requests and select one that has not been reviewed yet. Make sure to choose a pull request from a peer whose code you haven't reviewed before.
+
+### Assign Yourself as a Reviewer:
+- On the right-hand side of the pull request, you will see the **Reviewers** section.
+- Click on the **Reviewers** dropdown and select your GitHub username to assign yourself as the reviewer.
+
+### Review the Code:
+- Read through your peer’s code carefully.
+- Provide feedback by commenting on specific lines or parts of the code.
+- If the solution meets all the requirements, you can **Approve** the pull request.
+- If there are issues or improvements needed, click **Request Changes** and leave constructive feedback on how the code can be improved.
+
+### Submit the Review:
+- Once your review is complete, click the **Submit Review** button in the top-right corner of the page.
 
 ## Submission Deadline
 
