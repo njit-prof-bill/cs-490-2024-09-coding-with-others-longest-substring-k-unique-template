@@ -92,7 +92,7 @@ Once you submit your pull request, you will be assigned a peer’s solution to r
 
 ## Submission Deadline
 
-Please make sure your pull request is submitted before the deadline: **[INSERT DEADLINE DATE]**.
+Please make sure your pull request is submitted before the deadline: **Friday, September 28, 2024**.
 
 ---
 
