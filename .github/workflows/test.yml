@@ -1,0 +1,36 @@
+name: Test Solution
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Run hidden tests
+      run: |
+        python -c "
+import unittest
+from solution import longest_substring_k_unique
+
+class TestLongestSubstring(unittest.TestCase):
+    def test_example_1(self):
+        self.assertEqual(longest_substring_k_unique('araaci', 2), 4)
+
+    def test_example_2(self):
+        self.assertEqual(longest_substring_k_unique('cbbebi', 3), 5)
+
+    def test_example_3(self):
+        self.assertEqual(longest_substring_k_unique('aa', 1), 2)
+
+if __name__ == '__main__':
+    unittest.main()
+"
