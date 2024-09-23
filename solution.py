@@ -11,5 +11,3 @@ def longest_substring_k_unique(s: str, k: int) -> int:
 s = "araaci"
 k = 2
  
-
-longest_substring_k_unique(s, k)
