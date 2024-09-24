@@ -54,7 +54,7 @@ def longest_substring_k_unique(s: str, k: int) -> int:
 3. **Create a New Branch**:
    - In your local repository, create a new branch to work on your solution:
      ```bash
-     git checkout -b gcd-feature
+     git checkout -b my-dev-branch
      ```
 
 4. **Implement Your Solution**:
@@ -68,15 +68,15 @@ def longest_substring_k_unique(s: str, k: int) -> int:
      ```
 
 6. **Push the Changes**:
-   - Push your changes to the `gcd-feature` branch on your forked repository:
+   - Push your changes to the `my-dev-branch` branch on your forked repository:
      ```bash
-     git push origin gcd-feature
+     git push origin my-dev-branch
      ```
 
 7. **Create a Pull Request**:
    - Go to your forked repository on GitHub.
    - Click the "Compare & pull request" button to create a pull request back to the original repository.
-   - Make sure you are comparing your `gcd-feature` branch with the `main` branch of the original repository.
+   - Make sure you are comparing your `my-dev-branch` branch with the `main` branch of the original repository.
    - Submit the pull request.
 
 ## Peer Review Instructions
@@ -105,7 +105,7 @@ After submitting your pull request, you will be required to review one of your p
 
 ## Submission Deadline
 
-Please make sure your pull request is submitted before the deadline: **Friday, September 28, 2024**.
+Please make sure your pull request is submitted before the deadline: **Friday, September 27**.
 
 ---
 
