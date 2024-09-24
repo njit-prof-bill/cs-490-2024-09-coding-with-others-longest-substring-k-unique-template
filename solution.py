@@ -3,7 +3,6 @@ def longest_substring_k_unique(s: str, k: int) -> int:
     for i in range(len(s)):
         charCount = 0
         sub = ""
-        print("ROUND: ", i)
         #Check substring starting from i
         for j in range(i,len(s)):
             # when charCount is at limit and not in the substring
