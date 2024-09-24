@@ -79,3 +79,4 @@ dmypy.json
 
 # Local test scripts or configs (optional, in case students create their own)
 test_solution.py
+.vs/
