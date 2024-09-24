@@ -12,4 +12,5 @@ def longest_substring_k_unique(s: str, k: int) -> int:
     print("Output:", output)            
     pass
 
-longest_substring_k_unique("cbbebi", 3)
+#test cases
+#longest_substring_k_unique("cbbebi", 3)
