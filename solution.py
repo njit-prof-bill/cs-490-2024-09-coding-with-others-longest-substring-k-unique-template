@@ -24,6 +24,8 @@ def longest_substring_k_unique(s: str, k: int) -> int:
                elif subs[j] not in chars:
                    chars += subs[j]
            curind = i
+   if len(subs) > len(max):
+      max = subs
    return len(max)
 
 
