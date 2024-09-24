@@ -1,8 +1,8 @@
 def longest_substring_k_unique(s: str, k: int) -> int:
-    string_l = len(s)
+    length = len(s)
     max_l = 0
-    for i in range(string_l):
-        for j in range(i + 1, string_l + 1):
+    for i in range(length):
+        for j in range(i + 1, length + 1):
             curr = set(s[i:j])
             if len(curr) == k:
                 max_l = max(max_l, j - i)
