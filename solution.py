@@ -18,8 +18,12 @@ def longest_substring_k_unique(s: str, k: int) -> int:
         currentString = ""
         seenChars = []
 
-    # return max length string from compiled string array
-    return max(compiledStrings, key=len)     
+    # return max length of string from compiled string array
+    maxLength = 0
+    for i in range(len(compiledStrings)):
+        if len(compiledStrings[i]) > maxLength:
+            maxLength=len(compiledStrings[i])
+    return maxLength    
 
 # Tests
 S = "araaci"
