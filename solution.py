@@ -26,6 +26,7 @@ def longest_substring_k_unique(s: str, k: int) -> int:
     pass
 
 
-longest_substring_k_unique("araaci", 2)
-longest_substring_k_unique("cbbebi", 3)
-longest_substring_k_unique("aa", 1)
+if __name__ == "__main__":
+    longest_substring_k_unique("araaci", 2)
+    longest_substring_k_unique("cbbebi", 3)
+    longest_substring_k_unique("aa", 1)
