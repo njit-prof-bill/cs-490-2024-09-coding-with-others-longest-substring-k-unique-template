@@ -1,4 +1,4 @@
-def longest_substring_k_unique2(s: str, k: int) -> int:
+def longest_substring_k_unique(s: str, k: int) -> int:
 
     stringSize = len(s)
     finalAnswer = ""
