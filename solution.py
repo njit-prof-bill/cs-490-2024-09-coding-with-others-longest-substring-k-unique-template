@@ -31,7 +31,6 @@ def longest_substring_k_unique(s: str, k: int) -> int:
         letters=[]
     
     return max_length
-    pass
 
 #Test cases
 print(longest_substring_k_unique("aaaai",2))
