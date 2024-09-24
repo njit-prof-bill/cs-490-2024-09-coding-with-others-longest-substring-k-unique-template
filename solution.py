@@ -5,6 +5,7 @@ def longest_substring_k_unique(s: str, k: int) -> int:
     
     for i in range(length):
         for j in range(i + 1, length + 1):
+            # Adds distinct (unique) values from string
             distinct = set(s[i:j])
             if len(distinct) > k:
                 break
