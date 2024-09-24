@@ -16,6 +16,3 @@ def longest_substring_k_unique(s: str, k: int) -> int:
             maxLength = max(maxLength, right - left + 1)
     
     return maxLength
-s = "araaci"
-k = 2
-print(longest_substring_k_unique(s,k))
