@@ -10,11 +10,9 @@ def longest_substring_k_unique(s: str, k: int) -> int:
                     longest = [substr]
                 elif (len(substr) == len(longest[0])):
                     longest.append(substr)
-    return longest
+    return len(longest[0])
 
 tests = [("araaci", 2), ("cbbebi", 3), ("aa", 1)]
 for test in tests:
     longestSubstring = longest_substring_k_unique(test[0], test[1])
-    print(f"\nInput: S = {test[0]}, K = {test[1]}\n"
-        f"Output: {len(longestSubstring[0])}\n"
-        f"Longest Substrings: {', '.join(longestSubstring)}")
+    print(longestSubstring)
