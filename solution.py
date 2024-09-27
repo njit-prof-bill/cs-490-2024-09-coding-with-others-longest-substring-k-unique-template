@@ -41,14 +41,12 @@ print("Input: S =", S, ", K =", K)
 print("Output:", longest_substring_k_unique(S, K))  # Expected output: 4
 print("Explanation: The longest substring with exactly 2 unique characters is 'araa'.\n")
 
-# New Case 15: Input: S = "cbbebi", K = 3
 S = "cbbebi"
 K = 3
 print("Input: S =", S, ", K =", K)  
 print("Output:", longest_substring_k_unique(S, K))  # Expected output: 5
 print("Explanation: The longest substring with exactly 3 unique characters is 'cbbeb' or 'bbebi'.\n")
 
-# New Case 16: Input: S = "aa", K = 1
 S = "aa"
 K = 1
 print("Input: S =", S, ", K =", K)  
