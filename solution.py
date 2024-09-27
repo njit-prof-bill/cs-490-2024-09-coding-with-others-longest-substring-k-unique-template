@@ -1,5 +1,4 @@
 def longest_substring_k_unique(s: str, k: int) -> int:
-    
     # if no string is given or k is 0, exit out
     if not s or k == 0:
         return 0
