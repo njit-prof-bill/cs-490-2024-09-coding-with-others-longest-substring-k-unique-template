@@ -9,14 +9,14 @@ def longest_substring_k_unique(s: str, k: int) -> int:
 
     # Neccesary variables for sliding window Initialization
     left_pointer = 0
-    max_len = 0 #
+    max_len = 0 
 
-    #looping throught he string
+    # looping throught he string
     for right_pointer in range(len(s)):
-        # Add the character at the right pointer to the dictionary (or update it's frequency)
+        # add the character at the right pointer to the dictionary (or update it's frequency)
         char_freq[s[right_pointer]] = char_freq.get(s[right_pointer], 0) + 1
 
-        #while the number of unique characters is greater than k, shrink the window
+        # while the number of unique characters is greater than k, shrink the window
         while len(char_freq) > k:
             # decrease tje frequency of the character at the left_pointer
             char_freq[s[left_pointer]] -= 1
@@ -34,7 +34,7 @@ def longest_substring_k_unique(s: str, k: int) -> int:
     return max_len
 
 # Test Cases
-#Hw provided test cases
+# Hw provided test cases
 print("Hw page provided test cases: ")
 S = "araaci"
 K = 2
