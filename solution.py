@@ -7,6 +7,11 @@ def longest_substring_k_unique(s: str, k: int) -> int:
             result += char
         elif char in result:
             result += char
+
+    if unique_count < k:
+        result = ""
+
+    
     return len(result)
 
 
